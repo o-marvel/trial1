@@ -1,0 +1,119 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.top-bar{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 100px;
+    background-color: blue;
+    padding: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}    
+.logo{
+    /* border: 1px soid black; */
+    color: white;
+    flex: 1;
+    margin-left: 25%;
+    padding: 50px;
+}
+section{
+    width: 100%;
+    background: #cdcdcd;
+    height: 450px;
+    padding: 0 20%;
+}
+.container{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    background-color: blue;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.hero-text{
+    /* border: 1px solid black; */
+    width: 30%;
+    height: 300px;
+    color: white;
+    /* padding-left: 20px;
+    padding-right: 20px; */
+}
+.img-box{
+    /* border: 1px solid black; */
+    width: 30%;
+    height: 300px;
+    background-color: white;
+}.hero-text h2{
+    font-size: 30px;
+}
+.hero-text p{
+    margin-top: 50px;
+}
+.hero-text button{
+    margin-top: 50px;
+    /* font-size: 20px; */
+    background-color: blue; 
+    color: white;
+    /* border: none; */
+    padding: 10px;
+    border-radius: 20px;
+}
+.bx{
+    width: 100%;
+    height: 10px;
+    background-color: blueviolet;
+}
+.second-box{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 150px;
+    padding: 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.middle-box{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(202, 175, 228, 0.267);
+    
+}
+.single-box{
+    border: 1px solid black;
+    width: 80%;
+    height: 300px;
+    display: flex;
+}
+.img-area{
+    /* border: 1px solid black; */
+    width: 20%;
+    height: 20%;
+    background: skyblue;
+    border-radius: 50%;
+    margin-left: 90px;
+    margin-bottom: 30px;
+}
+.img-text{
+    border: 1px solid black;
+    width: 20%;
+    height: 30%;
+    margin-top: 90px;
+    position: relative;
+    text-overflow: ellipsis;
+    /* margin-right: 50px; */
+}
